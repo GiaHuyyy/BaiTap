@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 6</title>
+    <style>
+        .table_1 {
+            width: 300px;
+            height: 200px;
+            border-color: #e0cda5;
+            box-shadow: 0px 0px 5px 2px rgba(0, 0, 0, 0.4);
+        }
+
+        td {
+            padding: 10px;
+        }
+
+        .c6910 {
+            background-color: #ffff00;
+        }
+
+        .c4578 {
+            background-color: #fa7f02;
+        }
+    </style>
+</head>
+<body>
+    <table class="table_1" border="12">
+        <tr>
+            <td>1</td>
+            <td colspan="4">2</td>
+        </tr>
+        <tr>
+            <td rowspan="3">3</td>
+            <td class="c4578">4</td>
+            <td class="c4578">5</td>
+            <td colspan="2" rowspan="2" class="c6910">6</td>
+
+        </tr>
+        <tr>
+            <td class="c4578">7</td>
+            <td class="c4578">8</td>
+        </tr>
+        <tr>
+            <td colspan="2" class="c6910">9</td>
+            <td colspan="2" class="c6910">10</td>
+        </tr>
+    </table>
+</body>
+</html>
